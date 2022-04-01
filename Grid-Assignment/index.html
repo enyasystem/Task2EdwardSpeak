@@ -2,14 +2,11 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Grid Assignment</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <style>
         body{
-            margin-bottom: 300px;
+            padding-bottom: 300px;
         }
         .grid{
             height: 100px;
@@ -19,47 +16,38 @@
 <body>
     <div style="display: grid;
     grid-template-columns: 200px 75px;">
-        <div >
-            <p class="grid" style="background-color: aqua;">100px</p>
-        </div>
-        <div>
+         <p class="grid" style="background-color: aqua;">100px</p>
             <p class="grid" style="background-color: pink;">75px</p>
-        </div>
     </div>
 
     <div style="display: grid;
     grid-template-columns: 50px 1fr 75px;">
-        <div>
+        
             <p class="grid" style="background-color: aqua;">50px</p>
-        </div>
-        <div>
+        
+        
             <p class="grid" style="background-color: pink;">1rf</p>
-        </div>
-        <div>
+        
+        
             <p class="grid" style="background-color: aqua;">50px</p>
-        </div>
+        
     </div>
 
     <div style="display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: 200px 200px 200px 200px;
     column-gap: 20px;
     row-gap: 10px;">
-        <div>
             <p class="grid" style="background-color: aqua;">col1</p>
             <p class="grid" style="background-color: pink;">col2</p>
-        </div>
-        <div>
             <p class="grid" style="background-color: pink;">col2</p>
             <p class="grid" style="background-color: aqua;">col1</p>
-        </div>
-        <div>
+        
             <p class="grid" style="background-color: aqua;">col3</p>
             <p class="grid" style="background-color: pink;">col2</p>
-        </div>
-        <div>
+        
             <p class="grid" style="background-color: pink;">col4</p>
             <p class="grid" style="background-color: aqua;">col3</p>
-        </div>
+        
     </div>
 </body>
 </html>
